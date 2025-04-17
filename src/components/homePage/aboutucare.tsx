@@ -3,7 +3,6 @@ import React from 'react'
 import homeabout from "../../../public/assets/images/home_abt.jpg"
 import wave from "../../../public/assets/lottie/wave.json"
 import Link from 'next/link'
-import Lottie from 'lottie-react'
 function AboutUcare() {
     return (
         <div className='bg-gradient-to-b from-primary-50 to-primary-100'>
@@ -29,7 +28,6 @@ function AboutUcare() {
                     </p>
                     <div className='flex justify-center items-start pt-5'>
                         <div className='relative'>
-                            <Lottie animationData={wave} loop={true} className='h-40 w-96 -rotate-45 absolute bottom-1 md:left-5 -right-28' />
                         </div>
                         <Link href="/contactUs" className='btn '>
                             Contact Us

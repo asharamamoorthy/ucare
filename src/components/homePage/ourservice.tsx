@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import dots from "../../../public/assets/lottie/bg.json"
 import Link from 'next/link'
-import Lottie from 'lottie-react'
 
 function OurService() {
     const serviceData = [
@@ -83,7 +82,6 @@ function OurService() {
                 </p>
             </div>
             <div className='relative'>
-                <Lottie animationData={dots} loop={true} className='md:h-screen  md:w-96 absolute md:-rotate-0 bottom-0 '/>
             </div>
             <div className='flex justify-center items-center py-20 md:m-5'>
                 <div className='grid md:grid-cols-12 grid-cols-1 md:gap-8 gap-4 p-3'>

@@ -1,4 +1,4 @@
-import Lottie from 'lottie-react';
+
 import React from 'react';
 import dots from "../../../public/assets/lottie/bg.json"
 
@@ -28,7 +28,6 @@ const BeautyCoursePage: React.FC = () => {
                 <h2 className="text-2xl font-semibold mb-4">Why To Choose <span className='text-primary-500 '>UCare</span> Beauty &amp; Fashion Academy?</h2>
                 <div className='flex justify-center items-center md:py-10'>
                     <div className='relative'>
-                        <Lottie animationData={dots} loop={true} className='md:h-screen md:w-96 absolute md:-rotate-90 bottom-0' />
                     </div>
                     <div className='grid md:grid-cols-12 grid-cols-1 md:gap-5 md:m-5 gap-4'>
                         <div data-aos="fade-right" className="lg:col-span-4 md:col-span-6 text-center border-2 rounded-xl p-5 bg-white card">
